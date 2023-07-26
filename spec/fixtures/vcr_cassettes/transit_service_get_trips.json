@@ -1,0 +1,63 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://external.transitapp.com/v3/otp/plan?fromPlace=40.77709768562554,-73.87400881765025&toPlace=40.77709768562554,-73.87400881765025",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "Api-Key": [
+            "DONT_SHARE_MY_TRANSIT_KEY"
+          ],
+          "User-Agent": [
+            "Faraday v2.7.10"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 401,
+          "message": "Unauthorized"
+        },
+        "headers": {
+          "Date": [
+            "Wed, 26 Jul 2023 22:54:47 GMT"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Www-Authenticate": [
+            "Key realm=\"kong\""
+          ],
+          "Content-Length": [
+            "45"
+          ],
+          "X-Kong-Response-Latency": [
+            "0"
+          ],
+          "Server": [
+            "kong/3.0.2"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\n  \"message\":\"No API key found in request\"\n}"
+        }
+      },
+      "recorded_at": "Wed, 26 Jul 2023 22:54:47 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.2.0"
+}
