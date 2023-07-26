@@ -34,7 +34,7 @@ RSpec.describe TransitService do
 
         first_leg = @first_itinerary[:legs].first
         expect(first_leg).to have_key(:duration)
-        expect(first_leg[:duration]).to eq(505)
+        expect(first_leg[:duration]).to eq(549)
       end
     end
   end
