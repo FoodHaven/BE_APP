@@ -13,24 +13,22 @@
           null
         ]
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/models/user.rb": {
+      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/services/transit_service.rb": {
         "lines": [
+          1,
+          1,
           1,
           1,
           null,
+          null,
+          null,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
+          0,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -92,8 +90,33 @@
         ],
         "branches": {
         }
+      },
+      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/models/application_record.rb": {
+        "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/models/user.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1690401014
+    "timestamp": 1690412396
   }
 }
