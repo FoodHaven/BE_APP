@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+    "id": 1,
+    "name": "Lakewood Hood's Goods",
+    "address": "1234 S. Colorado and Colorado, Denver Colorado",
+    "site": "behind king soopers",
+    "description": "Hood's Goods is a local market that sells fresh produce and other goods.",
+    "fnap": true,
+    "snap_option": true,
+    "accepted_payment": true,
+    "longitude": 39.7392,
+    "latitude": -104.9903
+  },
+  {
+    "id": 2,
+    "name": "Brownville Bakeoff",
+    "address": "5555 Brownie Lane, Denver Colorado",
+    "site": "also behind king soopers",
+    "description": "Brownville Bakeoff is a local market that sells the headiest of heady baked goods.",
+    "fnap": true,
+    "snap_option": true,
+    "accepted_payment": true,
+    "longitude": 39.7385,
+    "latitude": -104.9895
+  }
+  ]
+}

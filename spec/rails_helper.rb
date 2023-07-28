@@ -69,7 +69,7 @@ end
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   config.hook_into :webmock
-
+  config.allow_http_connections_when_no_cassette = true
   config.filter_sensitive_data('DONT_SHARE_MY_TRANSIT_KEY') { ENV['transit_api_key'] }
   config.default_cassette_options = {
     serialize_with: :json,
