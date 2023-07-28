@@ -13,19 +13,24 @@
           null
         ]
       },
-      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/facades/transit_facade.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/services/market_service.rb": {
         "lines": [
           1,
-          null,
+          1,
+          0,
           null,
           null,
           1,
           0,
           0,
-          0,
-          0,
+          null,
+          null,
+          1,
           0,
           null,
+          null,
+          1,
+          0,
           null,
           null
         ]
@@ -144,6 +149,25 @@
           0,
           0,
           null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/facades/transit_facade.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -318,30 +342,6 @@
         "branches": {
         }
       },
-      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/services/market_service.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/services/transit_service.rb": {
         "lines": [
           0,
@@ -373,6 +373,6 @@
         }
       }
     },
-    "timestamp": 1690558619
+    "timestamp": 1690586719
   }
 }

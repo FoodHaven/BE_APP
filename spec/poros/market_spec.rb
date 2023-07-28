@@ -3,8 +3,19 @@ require 'rails_helper'
 RSpec.describe Market, type: :model do
   describe 'create market object' do
     it 'has market attributes' do
-      market = Market.new("Lakewood Hood's Goods", "1234 S. Colorado and Colorado, Denver Colorado", "behind king soopers", "Hood's Goods is a local market that sells fresh produce and other goods.", true, true, true, 39.7392, -104.9903)
+      data = {
+        name: "Lakewood Hood's Goods", 
+        address: "1234 S. Colorado and Colorado, Denver Colorado", 
+        site: "behind king soopers", 
+        description: "Hood's Goods is a local market that sells fresh produce and other goods.", 
+        fnap: true, 
+        snap_option: true, 
+        accepted_payment: true, 
+        longitude: 39.7392, 
+        latitude: -104.9903
+      }
 
+      market = Market.new(data)
       expect(market).to be_a(Market)
       expect(market.name).to eq("Lakewood Hood's Goods")
       expect(market.address).to eq("1234 S. Colorado and Colorado, Denver Colorado")
