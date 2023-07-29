@@ -12,4 +12,22 @@ RSpec.describe MarketService do
     expect(markets.first[:attributes][:name]).to eq("Market in The Park")
     expect(markets.second[:attributes][:name]).to eq("Market in The Park - Lavretta Park")
   end
+
+  describe 'favorites' do 
+    before(:each) do 
+      @ms = MarketService.new
+    end
+
+    it 'can retrieve favorites from market service' do 
+      ids = [12, 34, 56]
+
+      markets = @ms.favorite_markets(ids)[:data]
+      market_ids = markets.map { |market| market[:id] }
+
+      expect(markets.count == 3).to be true
+      expect(market_ids).to include('12')
+      expect(market_ids).to include('34')
+      expect(market_ids).to include('56')
+    end
+  end
 end
