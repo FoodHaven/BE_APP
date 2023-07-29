@@ -13,11 +13,6 @@ class TransitService
   def get_trips(origin_lat, origin_lon, destination_lat, destination_lon)
     get_url("/v3/otp/plan?fromPlace=#{origin_lat},#{origin_lon}&toPlace=#{destination_lat},#{destination_lon}")
   end
-
-  # def get_trips(origin_lat, origin_lon, destination_lat, destination_lon)
-  #   response = conn.get("otp/plan?fromPlace=#{origin_lat}, #{origin_lon}&toPlace=#{destination_lat}, #{destination_lon}")
-  #   data = JSON.parse(response.body, symbolize_names: true)
-  # end
 end
 
 

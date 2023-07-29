@@ -4,11 +4,11 @@ RSpec.describe TransitRoute, type: :model do
   describe 'create transit route object' do
     it 'has transit route attributes' do
       data = {
-        agency_name: "RTD",
-        route_short_name: "225",
+        agencyName: "RTD",
+        routeShortName: "225",
         headsign: "Downtown Denver",
-        start_time: "2020-09-01T05:00:00",
-        end_time: "2020-09-01T05:30:00"
+        startTime: "2020-09-01T05:00:00",
+        endTime: "2020-09-01T05:30:00"
       }
       route = TransitRoute.new(data)
 
