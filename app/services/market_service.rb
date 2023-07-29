@@ -13,6 +13,6 @@ class MarketService
   end
 
   def one_market(id)
-    get_url("/api/v1/markets/#{id}")
+    get_url("/api/v1/markets/search?#{id}")
   end
 end
