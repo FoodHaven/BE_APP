@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+    "id": 1,
+    "agency_name": "RTD",
+    "route_short_name": "225",
+    "headsign": "Downtown Denver",
+    "start_time": "2020-09-01T05:00:00",
+    "end_time": "2020-09-01T05:30:00"
+  },
+  {
+    "id": 2,
+    "agency_name": "TRD",
+    "route_short_name": "111",
+    "headsign": "behind king soopers",
+    "start_time": "2020-09-01T05:00:00",
+    "end_time": "2020-09-01T05:30:00"
+  }
+  ]
+}

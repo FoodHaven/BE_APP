@@ -1,0 +1,312 @@
+{
+  "data": [
+      {
+          "id": 2,
+          "attributes": {
+              "name": "Market in The Park",
+              "address": "300 Conti, Mobile, Alabama 36602",
+              "site": "Local government building grounds;",
+              "description": "Cathedral Square, located in downtown Mobile, bordered by Conti, Jackson, Dauphin, and Claiborne Streets.",
+              "fnap": "Senior Farmers Market Nutrition Program;",
+              "snap_option": null,
+              "accepted_payment": "Debit card/Credit card;",
+              "longitude": -88.045015,
+              "latitude": 30.69035
+          }
+      },
+      {
+          "id": 12,
+          "attributes": {
+              "name": "Market in The Park - Lavretta Park",
+              "address": "200 Parkway Street West, Mobile, Alabama 36606",
+              "site": "Local government building grounds;",
+              "description": "Lavretta Park is located in the Springhill area just off of Old Shell Road.",
+              "fnap": "Senior Farmers Market Nutrition Program;",
+              "snap_option": null,
+              "accepted_payment": "Debit card/Credit card;",
+              "longitude": -88.160082,
+              "latitude": 30.691614
+          }
+      },
+      {
+          "id": 1539,
+          "attributes": {
+              "name": "Bay Minette Farmers Market",
+              "address": "301 MCMEANS AVE, BAY MINETTE, AL 36507",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -87.78567916512583,
+              "latitude": 30.880755789772916
+          }
+      },
+      {
+          "id": 1540,
+          "attributes": {
+              "name": "Bayou Farmers Market",
+              "address": "13790 South Wintzell Avenue, Bayou La Batre, AL 36509",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.24769883547933,
+              "latitude": 30.408651968094556
+          }
+      },
+      {
+          "id": 1549,
+          "attributes": {
+              "name": "Chicago Street Farmers Market",
+              "address": "125 East Laurel Avenue, Foley, AL 36530",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -87.68329068445334,
+              "latitude": 30.406432589111905
+          }
+      },
+      {
+          "id": 1553,
+          "attributes": {
+              "name": "Coastal Alabama Farmers and Fishermen Market",
+              "address": "104 North McKenzie Street., Foley, AL 36535",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -87.68381028356903,
+              "latitude": 30.40571297192097
+          }
+      },
+      {
+          "id": 1555,
+          "attributes": {
+              "name": "CUMC Farmers' Market",
+              "address": "6101 Grelot Rd., Mobile, AL 36609",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.19075318323489,
+              "latitude": 30.66113052277336
+          }
+      },
+      {
+          "id": 1560,
+          "attributes": {
+              "name": "Elberta Farmers Market",
+              "address": "24978 State Street, Elberta, AL 36530",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -87.5990702977479,
+              "latitude": 30.41431378098425
+          }
+      },
+      {
+          "id": 1562,
+          "attributes": {
+              "name": "Fairhope Outdoor Farmers Market",
+              "address": "Magnolia Avenue and North Bancroft Street, Fairhope, AL 36532",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -87.90200003790763,
+              "latitude": 30.52445000993295
+          }
+      },
+      {
+          "id": 1565,
+          "attributes": {
+              "name": "Farmers Market of Mobile",
+              "address": "2245 HLS MILL RD, MOBILE, AL 36606",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.0975803525508,
+              "latitude": 30.659704896803788
+          }
+      },
+      {
+          "id": 1567,
+          "attributes": {
+              "name": "Fitzpen Place Farmers Market",
+              "address": "11247 US Highway 31, Spanish Fort, AL 36526",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -87.82831418553327,
+              "latitude": 30.676896579126286
+          }
+      },
+      {
+          "id": 1570,
+          "attributes": {
+              "name": "Forland Family Market",
+              "address": "20733 Miflin Road, Foley, AL 36535",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -87.66868096202084,
+              "latitude": 30.37160600552876
+          }
+      },
+      {
+          "id": 1577,
+          "attributes": {
+              "name": "Halls Mill Road Farmers Market",
+              "address": "2245 Halls Mill Road, Mobile, AL 36606",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.0975803525508,
+              "latitude": 30.659704896803788
+          }
+      },
+      {
+          "id": 1580,
+          "attributes": {
+              "name": "Highway 45 Market",
+              "address": "1401 A St. Stephens Road, Prichard, AL 36612",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.10352001716547,
+              "latitude": 30.731634018352082
+          }
+      },
+      {
+          "id": 1596,
+          "attributes": {
+              "name": "Market on the Hill",
+              "address": "1 University Boulevard, Mobile, AL 36633",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.17297397561975,
+              "latitude": 30.688187009975408
+          }
+      },
+      {
+          "id": 1597,
+          "attributes": {
+              "name": "Market on the Square",
+              "address": "300 Conti St., Mobile, AL 36602",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.04391965148004,
+              "latitude": 30.690367130676716
+          }
+      },
+      {
+          "id": 1598,
+          "attributes": {
+              "name": "MicroGreen Market",
+              "address": "8442 Rockwell Lane, Fairhope, AL 36532",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -87.8782458393704,
+              "latitude": 30.495213531577928
+          }
+      },
+      {
+          "id": 1616,
+          "attributes": {
+              "name": "Satsuma Farmers' Market",
+              "address": "Baldwin Square, Satsuma, AL 36572",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.05603999999994,
+              "latitude": 30.85194000000007
+          }
+      },
+      {
+          "id": 1625,
+          "attributes": {
+              "name": "The Bee Hive Farmers Market",
+              "address": "901 GOVERNMENT ST, MOBILE, AL 36604",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.0538571303594,
+              "latitude": 30.68618564298845
+          }
+      },
+      {
+          "id": 1636,
+          "attributes": {
+              "name": "Westside Tailgate Farmers Market",
+              "address": "2320 Schillinger Road, Mobile, AL 36608",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.22463485658695,
+              "latitude": 30.642528559799796
+          }
+      },
+      {
+          "id": 4560,
+          "attributes": {
+              "name": "City of Gautier's 2nd Saturday Farmer's Market",
+              "address": "902 DE LA POINTE DR Gautier, MS 39553",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.62367030012257,
+              "latitude": 30.38814532414977
+          }
+      },
+      {
+          "id": 4574,
+          "attributes": {
+              "name": "Jackson County Farmers Market",
+              "address": "2902 Shortcut Road, Jackson County Fair Grounds Pascagoula, MS 39568",
+              "site": null,
+              "description": null,
+              "fnap": null,
+              "snap_option": null,
+              "accepted_payment": null,
+              "longitude": -88.53269345299317,
+              "latitude": 30.381031376400152
+          }
+      }
+  ]
+}

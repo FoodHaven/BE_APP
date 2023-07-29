@@ -1,19 +1,103 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/helpers/application_helper.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/helpers/users_helper.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/helpers/users_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/services/transit_service.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/poros/market.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          null,
+          null
+        ]
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/poros/transit_route.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/services/market_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/services/transit_service.rb": {
         "lines": [
           1,
           1,
@@ -24,7 +108,16 @@
           null,
           1,
           1,
-          0,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           null,
@@ -32,7 +125,43 @@
           null
         ]
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/channels/application_cable/channel.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/facades/market_search.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          22,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/facades/transit_facade.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
           0,
@@ -42,7 +171,7 @@
         "branches": {
         }
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/channels/application_cable/connection.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
           0,
@@ -52,23 +181,97 @@
         "branches": {
         }
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/controllers/application_controller.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/controllers/api/v1/markets_controller.rb": {
         "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
         "branches": {
         }
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/controllers/users_controller.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/controllers/api/v1/transit_routes_controller.rb": {
         "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
         "branches": {
         }
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/jobs/application_job.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/controllers/sessions_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/controllers/users_controller.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/jobs/application_job.rb": {
         "lines": [
           0,
           null,
@@ -81,7 +284,7 @@
         "branches": {
         }
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/mailers/application_mailer.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/mailers/application_mailer.rb": {
         "lines": [
           0,
           0,
@@ -91,8 +294,17 @@
         "branches": {
         }
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/models/application_record.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/serializers/market_serializer.rb": {
         "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0
@@ -100,11 +312,48 @@
         "branches": {
         }
       },
-      "/Users/kimbergstrom/Turing/3mod/projects/food_haven_BE_app/app/models/user.rb": {
+      "/Users/stillymonster/3Mod/3mod_work/BE_APP/app/serializers/transit_serializer.rb": {
         "lines": [
           0,
           0,
           null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
           0,
           0,
           0,
@@ -117,6 +366,6 @@
         }
       }
     },
-    "timestamp": 1690412396
+    "timestamp": 1690590891
   }
 }

@@ -18,12 +18,11 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_26_193140) do
     t.string "name"
     t.string "email"
     t.string "street_address"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.string "city"
     t.string "state"
     t.integer "zip"
     t.string "password_digest"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
-
 end
