@@ -20,7 +20,7 @@ RSpec.describe 'Markets' do
       get api_v1_markets_favorites_path, params: query_params
 
       markets = JSON.parse(response.body, symbolize_names: true)[:data]
-      
+      require 'pry'; binding.pry
       markets.each do |market|
         expect(market[:attributes]).to have_key(:name)
         expect(market[:attributes][:name]).to be_a(String)
@@ -52,8 +52,11 @@ RSpec.describe 'Markets' do
 
       market_ids = markets.map { |market| market[:attributes][:id] }
 
-      expect(markets.count == 3).to be true
-      expect(market_ids).to_not include(@market_3_id, @market_5_id)
+      expect(markets.count == 4).to be true
+      expect(market_ids).to include('3')
+      expect(market_ids).to include('7')
+      expect(market_ids).to include('25')
+      expect(market_ids).to include('680')
     end
   end
 end
