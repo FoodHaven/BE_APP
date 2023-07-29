@@ -1,12 +1,14 @@
 class TransitFacade
-  # def self.plan_trip(origin_lat, origin_lon, destination_lat, destination_lon)
-  #   TransitService.get_trips(origin_lat, origin_lon, destination_lat, destination_lon)
-  # end
   def self.get_trips(origin_lat, origin_lon, destination_lat, destination_lon)
     service = TransitService.new
     request = service.get_trips(origin_lat, origin_lon, destination_lat, destination_lon)
-    @routes = request[:plan][:itineraries].map do |route|
-      TransitRoute.new
+    route_data = request[:plan][:itineraries]
+    legs_data = route_data.map do |r|
+      r[:legs]
+    end
+    
+    leg_info = legs_data.first.map do |leg|
+      TransitRoute.new(leg)
     end
   end
 end

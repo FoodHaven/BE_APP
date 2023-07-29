@@ -66,11 +66,11 @@
           1,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          6,
+          6,
+          6,
+          6,
+          6,
           null,
           null
         ]
@@ -117,11 +117,6 @@
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null
         ]
       },
@@ -147,14 +142,17 @@
       "/Users/jessesorman/Documents/turing_work/3mod/projects/Food_Haven/BE_APP/app/facades/transit_facade.rb": {
         "lines": [
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
           null,
           null,
-          null,
           1,
-          1,
-          1,
-          1,
-          0,
+          5,
+
           null,
           null,
           null
@@ -365,6 +363,6 @@
         }
       }
     },
-    "timestamp": 1690591456
+    "timestamp": 1690666868
   }
 }
