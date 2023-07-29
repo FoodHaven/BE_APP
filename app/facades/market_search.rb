@@ -1,9 +1,9 @@
 class MarketSearch
-  def all_markets
+  def all_markets(latitude, longitude, radius)
     service = MarketService.new
-    request = service.all_markets
+    request = service.all_markets(latitude, longitude, radius)
     @markets = request[:data].map do |mark|
-      Market.new(mark)
+      Market.new(mark[:attributes])
     end
   end
 
