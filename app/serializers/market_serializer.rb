@@ -8,5 +8,6 @@ class MarketSerializer
             :snap_option, 
             :accepted_payment, 
             :longitude, 
-            :latitude
+            :latitude,
+            :id
 end
