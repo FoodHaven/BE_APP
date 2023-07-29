@@ -10,8 +10,8 @@ module Api
       end
 
       def show
-        market = Market.find(params[:id])
-        render json: MarketSerializer.new(market)
+        market = MarketService.new.one_market(params[:id])
+        render json: market
       end
     end
   end
