@@ -3,7 +3,14 @@ require 'rails_helper'
 RSpec.describe TransitRoute, type: :model do
   describe 'create transit route object' do
     it 'has transit route attributes' do
-      route = TransitRoute.new("RTD", "225", "Downtown Denver", "2020-09-01T05:00:00", "2020-09-01T05:30:00")
+      data = {
+        agency_name: "RTD",
+        route_short_name: "225",
+        headsign: "Downtown Denver",
+        start_time: "2020-09-01T05:00:00",
+        end_time: "2020-09-01T05:30:00"
+      }
+      route = TransitRoute.new(data)
 
       expect(route).to be_a(TransitRoute)
       expect(route.agency_name).to eq("RTD")
