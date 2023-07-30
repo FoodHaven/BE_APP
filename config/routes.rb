@@ -5,12 +5,9 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api do
     namespace :v1 do
-      get 'markets/favorites', to: 'markets/favorites#index', as: 'markets_favorites'
       resources :markets, only: [:index, :show] do
-        get 'routes', to: 'transit_routes#index'
+        resources :transit_routes, only: [:index, :show], to: 'markets/transit_routes#index'
       end
     end
   end
-  resources :users, only: [:new, :create]
 end
-
