@@ -1,0 +1,17 @@
+{
+  "data": [{
+        "id": 2,
+        "attributes": {
+          "name": "Market in The Park",
+          "address": "300 Conti, Mobile, Alabama 36602",
+          "site": "Local government building grounds;",
+          "description": "Cathedral Square, located in downtown Mobile, bordered by Conti, Jackson, Dauphin, and Claiborne Streets.",
+          "fnap": "Senior Farmers Market Nutrition Program;",
+          "snap_option": null,
+          "accepted_payment": "Debit card/Credit card;",
+          "longitude": -88.045015,
+          "latitude": 30.69035
+        }
+      }
+    ]
+  }
