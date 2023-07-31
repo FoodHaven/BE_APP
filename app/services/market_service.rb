@@ -21,4 +21,10 @@ class MarketService
     response = conn.get("/api/v1/markets/favorites", params)
     JSON.parse(response.body, symbolize_names: true)
   end
+
+  def self.nearby_markets(latitude, longitude, radius)
+    params = {coordinates: [latitude, longitude], radius: radius}
+    response = conn.get("/api/v1/markets/nearby", params)
+    JSON.parse(response.body, symbolize_names: true)
+  end
 end
