@@ -13,7 +13,7 @@ class MarketService
   end
 
   def one_market(id)
-    get_url("/api/v1/markets/search?#{id}")
+    get_url("/api/v1/markets/#{id}")
   end
 
   def favorite_markets(ids)
