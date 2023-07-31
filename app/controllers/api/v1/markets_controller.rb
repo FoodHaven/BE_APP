@@ -12,7 +12,6 @@ module Api
       def show
         params[:id] = params[:id].to_i
         market = MarketService.new.one_market(params[:id])
-        require 'pry'; binding.pry
         render json: market
       end
     end
