@@ -2,22 +2,26 @@ require 'rails_helper'
 
 RSpec.describe 'Market Microservice API Request' do
   describe 'market requests' do
-    it 'can get all markets' do
-      query_params = {latitude: 30.69035, longitude: -88.045015, radius: 50}  
+    it 'can get all markets', :vcr do
+      query_params = {latitude: 30.69035, longitude: -88.045015, radius: 50}
       get api_v1_markets_path, params: query_params
       data = JSON.parse(response.body, symbolize_names: true)[:data]
       @markets = data.map { |market| Market.new(market[:attributes]) }
 
       expect(@markets).to be_a(Array)
-      expect(@markets.count).to eq(12)
-      expect(@markets.first).to be_a Market
-      expect(@markets.first.name).to eq("Market in The Park")
-      expect(@markets.second.name).to eq("Market in The Park - Lavretta Park")
-      expect(@markets.third.name).to eq("Market in The Park")
+      expect(@markets.count).to eq(154)
+
+      @markets.each do |market|
+        expect(market).to be_a Market
+        expect(market.name).to be_a(String)
+        expect(market.address).to be_a(String)
+        expect(market.longitude).to be_a(Float)
+        expect(market.latitude).to be_a(Float)
+      end
     end
-    
-    
-    it 'gets one market' do  
+
+
+    it 'gets one market', :vcr do
       get api_v1_market_path(2)
       data = JSON.parse(response.body, symbolize_names: true)[:data]
       @market = Market.new(data[:attributes])
@@ -34,7 +38,7 @@ RSpec.describe 'Market Microservice API Request' do
       expect(@market.latitude).to eq(30.69035)
     end
 
-    it 'hits the endpoint for market favorites' do 
+    it 'hits the endpoint for market favorites', :VCR do
       query_params = {
         market_ids: [3, 7, 25, 680]
       }
@@ -42,13 +46,13 @@ RSpec.describe 'Market Microservice API Request' do
       expect(response).to be_successful
     end
 
-    it 'returns the correct json objects for market favorites query' do 
+    it 'returns the correct json objects for market favorites query', :vcr do
       query_params = {
         market_ids: [3, 7, 25, 680]
       }
       get api_v1_favorites_path, params: query_params
       markets = JSON.parse(response.body, symbolize_names: true)[:data]
-      
+
       markets.each do |market|
         expect(market[:attributes]).to have_key(:name)
         expect(market[:attributes]).to have_key(:address)

@@ -1,0 +1,99 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://foodhaven-farmers-markets-api.onrender.com/api/v1/markets/favorites?market_ids%5B%5D=12&market_ids%5B%5D=34&market_ids%5B%5D=56",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.10"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 01 Aug 2023 20:18:24 GMT"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Cf-Ray": [
+            "7f00c523f9942906-DEN"
+          ],
+          "Cf-Cache-Status": [
+            "DYNAMIC"
+          ],
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Etag": [
+            "W/\"b3127af69c343db574762a483671adf2\""
+          ],
+          "Vary": [
+            "Accept-Encoding"
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Render-Origin-Server": [
+            "Render"
+          ],
+          "X-Request-Id": [
+            "03dd4c9d-2746-481c-8ac0-e235af464aef"
+          ],
+          "X-Runtime": [
+            "0.024547"
+          ],
+          "X-Xss-Protection": [
+            "0"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"data\":[{\"id\":\"12\",\"type\":\"market\",\"attributes\":{\"name\":\"Market in The Park - Lavretta Park\",\"address\":\"200 Parkway Street West, Mobile, Alabama 36606\",\"site\":\"Local government building grounds;\",\"description\":\"Lavretta Park is located in the Springhill area just off of Old Shell Road.\",\"fnap\":\"Senior Farmers Market Nutrition Program;\",\"snap_option\":null,\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-88.160082,\"latitude\":30.691614}},{\"id\":\"34\",\"type\":\"market\",\"attributes\":{\"name\":\"Utica Farmers Market\",\"address\":\"Chancellor Park, Elizabeth St., Utica, New York 13501\",\"site\":\"Local government building grounds;\",\"description\":\"Chancellor Park is located on Elizabeth Street between Acadamy Street and Kent Street\",\"fnap\":\"WIC Farmers Market;WIC;Senior Farmers Market Nutrition Program;SNAP;Accept EBT at a central location;;\",\"snap_option\":\"Accept EBT at a central location;\",\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-75.225983,\"latitude\":43.096382}},{\"id\":\"56\",\"type\":\"market\",\"attributes\":{\"name\":\"Puyallup Farmers' Market\",\"address\":\"300  S Meridian (COVID operations at corner of  2nd and Main, downtown Puyallup), Puyallup, Washington 98371\",\"site\":\"Closed-off public street;\",\"description\":\"In Pioneer Park and also in the Pavilion. Part of the market is out of doors and part of it is indoors. (COVID operations on several blocks downtown, entrance at 2nd and Main)\",\"fnap\":\"WIC;Senior Farmers Market Nutrition Program;SNAP;Accept EBT at a central location;;\",\"snap_option\":\"Accept EBT at a central location;\",\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-122.29243,\"latitude\":47.191241}}]}"
+        }
+      },
+      "recorded_at": "Tue, 01 Aug 2023 20:18:24 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.2.0"
+}
