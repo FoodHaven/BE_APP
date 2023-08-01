@@ -9,6 +9,7 @@ class Api::V1::Markets::TransitRoutesController < ApplicationController
   end
   
   def show
-    route = TransitFacade.route(params[:global_route_id])
+    route = TransitService.new.trip_details(params[:global_route_id])
+    render json: RouteDetailSerializer.format(route)
   end
 end

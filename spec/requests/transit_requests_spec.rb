@@ -33,15 +33,20 @@ RSpec.describe 'Transit Route Requests' do
 
   describe 'transit route show' do 
     before(:each) do 
-      get "/api/v1/markets/1/transit_routes"
-      require 'pry'; binding.pry
+      query_params = {
+        global_route_id: 'MTABC:94839'
+      }
+      get "/api/v1/route_details", params: query_params
     end
+    
     it 'endpoint exists' do 
       expect(response).to be_successful
     end
 
-    it 'endpoint exists' do 
-      response = JSON.parse(response.body, symbolize_names: true)
+    it 'renders useful data' do 
+      route_details = JSON.parse(response.body, symbolize_names: true)
+
+      expect(route_details).to have_key(:data)
     end
   end
 end
