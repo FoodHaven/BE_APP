@@ -5,35 +5,37 @@ RSpec.describe 'Route Detail Serializer' do
     mock_response = File.read('spec/fixtures/transit_routes/route_details.json')
     route = JSON.parse(mock_response, symbolize_names: true)
     @result = RouteDetailSerializer.format(route)
-    @single_stop = @result[:attributes][:stops].first
+    @first_record = @result[:data].first
+    @single_stop = @result[:data].first[:attributes][:stops].first
   end
 
   describe 'general results format' do
-    it 'data is an array of data' do 
+    it 'data is an array of data holding hashes' do 
       expect(@result).to have_key(:data)
       expect(@result[:data]).to be_a Array
+      expect(@result[:data].first).to be_a Hash
     end
     
     it 'has a type' do 
-      expect(@result).to have_key(:type)
-      expect(@result[:type]).to eq("route")
+      expect(@first_record).to have_key(:type)
+      expect(@first_record[:type]).to eq("route")
     end
 
     it 'has an attributes hash' do 
-      expect(@result).to have_key(:attributes)
-      expect(@result[:attributes]).to be_a Hash
+      expect(@first_record).to have_key(:attributes)
+      expect(@first_record[:attributes]).to be_a Hash
     end
   end
 
   describe 'attributes' do 
     it 'includes headsign' do 
-      expect(@result[:attributes]).to have_key(:headsign)
-      expect(@result[:attributes][:headsign]).to be_a String
+      expect(@first_record[:attributes]).to have_key(:headsign)
+      expect(@first_record[:attributes][:headsign]).to be_a String
     end
 
     it 'includes an array of stops' do 
-      expect(@result[:attributes]).to have_key(:stops)
-      expect(@result[:attributes][:stops]).to be_a Array
+      expect(@first_record[:attributes]).to have_key(:stops)
+      expect(@first_record[:attributes][:stops]).to be_a Array
     end
 
     it 'array of stops has next departure' do

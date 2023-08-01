@@ -10,6 +10,15 @@
               {
                   "global_stop_id": "MTABC:33875",
                   "location_type": 0,
+                  "next_departure": {
+                      "departure_time": 1690930080,
+                      "is_cancelled": false,
+                      "is_real_time": false,
+                      "rt_trip_id": "36791208-LGPC3-LG_C3-Weekday-03",
+                      "scheduled_departure_time": 1690930080,
+                      "trip_search_key": "MTABC:42848234:205:2:110",
+                      "wheelchair_accessible": 1
+                  },
                   "parent_station_global_stop_id": null,
                   "route_type": 3,
                   "rt_stop_id": "553332",
@@ -22,6 +31,15 @@
               {
                   "global_stop_id": "MTABC:33876",
                   "location_type": 0,
+                  "next_departure": {
+                      "departure_time": 1690929660,
+                      "is_cancelled": false,
+                      "is_real_time": false,
+                      "rt_trip_id": "36791149-LGPC3-LG_C3-Weekday-03",
+                      "scheduled_departure_time": 1690929660,
+                      "trip_search_key": "MTABC:42848234:205:2:108",
+                      "wheelchair_accessible": 1
+                  },
                   "parent_station_global_stop_id": null,
                   "route_type": 3,
                   "rt_stop_id": "551576",
@@ -34,6 +52,15 @@
               {
                   "global_stop_id": "MTABC:36085",
                   "location_type": 0,
+                  "next_departure": {
+                      "departure_time": 1690930140,
+                      "is_cancelled": false,
+                      "is_real_time": false,
+                      "rt_trip_id": "36791149-LGPC3-LG_C3-Weekday-03",
+                      "scheduled_departure_time": 1690930140,
+                      "trip_search_key": "MTABC:42848234:205:2:108",
+                      "wheelchair_accessible": 1
+                  },
                   "parent_station_global_stop_id": null,
                   "route_type": 3,
                   "rt_stop_id": "904246",
@@ -46,6 +73,15 @@
               {
                   "global_stop_id": "MTABC:38529",
                   "location_type": 0,
+                  "next_departure": {
+                      "departure_time": 1690929780,
+                      "is_cancelled": false,
+                      "is_real_time": false,
+                      "rt_trip_id": "36791217-LGPC3-LG_C3-Weekday-03",
+                      "scheduled_departure_time": 1690929780,
+                      "trip_search_key": "MTABC:42848234:205:2:107",
+                      "wheelchair_accessible": 1
+                  },
                   "parent_station_global_stop_id": null,
                   "route_type": 3,
                   "rt_stop_id": "503848",
@@ -58,6 +94,15 @@
               {
                   "global_stop_id": "MTABC:38485",
                   "location_type": 0,
+                  "next_departure": {
+                      "departure_time": 1690929660,
+                      "is_cancelled": false,
+                      "is_real_time": false,
+                      "rt_trip_id": "36791168-LGPC3-LG_C3-Weekday-03",
+                      "scheduled_departure_time": 1690929660,
+                      "trip_search_key": "MTABC:42848234:205:2:106",
+                      "wheelchair_accessible": 1
+                  },
                   "parent_station_global_stop_id": null,
                   "route_type": 3,
                   "rt_stop_id": "904242",
@@ -70,6 +115,15 @@
               {
                   "global_stop_id": "MTABC:33880",
                   "location_type": 0,
+                  "next_departure": {
+                      "departure_time": 1690929660,
+                      "is_cancelled": false,
+                      "is_real_time": false,
+                      "rt_trip_id": "36791187-LGPC3-LG_C3-Weekday-03",
+                      "scheduled_departure_time": 1690929660,
+                      "trip_search_key": "MTABC:42848234:205:2:103",
+                      "wheelchair_accessible": 1
+                  },
                   "parent_station_global_stop_id": null,
                   "route_type": 3,
                   "rt_stop_id": "505192",
@@ -82,6 +136,15 @@
               {
                   "global_stop_id": "MTABC:33881",
                   "location_type": 0,
+                  "next_departure": {
+                      "departure_time": 1690929660,
+                      "is_cancelled": false,
+                      "is_real_time": false,
+                      "rt_trip_id": "36791207-LGPC3-LG_C3-Weekday-03",
+                      "scheduled_departure_time": 1690929660,
+                      "trip_search_key": "MTABC:42848234:205:2:102",
+                      "wheelchair_accessible": 1
+                  },
                   "parent_station_global_stop_id": null,
                   "route_type": 3,
                   "rt_stop_id": "982205",
