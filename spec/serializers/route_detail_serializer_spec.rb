@@ -2,11 +2,10 @@ require 'rails_helper'
 
 RSpec.describe 'Route Detail Serializer' do
   before(:each) do
-    @ts = TransitService.new
-    route = @ts.trip_details('MTABC:94839')
+    mock_response = File.read('spec/fixtures/transit_routes/route_details.json')
+    route = JSON.parse(mock_response, symbolize_names: true)
     @result = RouteDetailSerializer.format(route)
     @single_stop = @result[:attributes][:stops].first
-    require 'pry'; binding.pry
   end
 
   describe 'general results format' do
