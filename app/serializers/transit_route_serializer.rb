@@ -1,11 +1,11 @@
-class TransitRouteSerializer
-  include JSONAPI::Serializer
-  attributes :agency_name
-  attributes :route_short_name
-  attributes :headsign
-  attributes :start_time
-  attributes :end_time
-end
+# class TransitRouteSerializer
+#   include JSONAPI::Serializer
+#   attributes :agency_name
+#   attributes :route_short_name
+#   attributes :headsign
+#   attributes :start_time
+#   attributes :end_time
+# end
 #   attribute :date
 
 #   attribute :from do
