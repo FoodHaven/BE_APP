@@ -32,9 +32,11 @@ RSpec.describe TransitService do
 
       it 'returns a single route' do 
         route = @ts.trip_details('MTABC:94839')
-        
-        expect(route)
-        require 'pry'; binding.pry
+
+        expect(route).to be_a Hash
+        expect(route).to have_key(:itineraries)
+        expect(route[:itineraries]).to be_an Array
+        expect(route[:itineraries].first).to be_a Hash
       end
     end
   end

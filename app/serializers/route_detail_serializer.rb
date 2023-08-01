@@ -1,6 +1,6 @@
 class RouteDetailSerializer
   def self.format(response)
-    {
+    { 
       data: [
         {
           type: 'route', 
