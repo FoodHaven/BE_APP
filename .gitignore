@@ -31,4 +31,5 @@
 /config/master.key
 /coverage
 /coverage/index.html
-config/application.yml
+
+/config/application.yml

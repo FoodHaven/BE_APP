@@ -30,4 +30,23 @@ RSpec.describe 'Transit Route Requests' do
       expect(@routes.second.route_short_name).to be_a String
     end
   end
+
+  describe 'transit route show' do 
+    before(:each) do 
+      query_params = {
+        global_route_id: 'MTABC:94839'
+      }
+      get "/api/v1/route_details", params: query_params
+    end
+    
+    it 'endpoint exists' do 
+      expect(response).to be_successful
+    end
+
+    it 'renders useful data' do 
+      route_details = JSON.parse(response.body, symbolize_names: true)
+
+      expect(route_details).to have_key(:data)
+    end
+  end
 end

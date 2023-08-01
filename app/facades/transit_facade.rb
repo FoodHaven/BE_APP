@@ -13,4 +13,10 @@ class TransitFacade
       TransitRoute.new(leg)
     end
   end
+
+  def route(id)
+    service = TransitService.new
+    request = service.trip_details(id)
+    route_data = request[:itineraries]
+  end
 end

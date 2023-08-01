@@ -24,5 +24,20 @@ RSpec.describe TransitService do
         expect(@first_leg[:duration]).to be_a Integer
       end
     end
+
+    describe '#trip_details' do 
+      before(:each) do
+        @ts = TransitService.new
+      end
+
+      it 'returns a single route' do 
+        route = @ts.trip_details('MTABC:94839')
+
+        expect(route).to be_a Hash
+        expect(route).to have_key(:itineraries)
+        expect(route[:itineraries]).to be_an Array
+        expect(route[:itineraries].first).to be_a Hash
+      end
+    end
   end
 end
