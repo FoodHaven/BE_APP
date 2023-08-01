@@ -24,5 +24,18 @@ RSpec.describe TransitService do
         expect(@first_leg[:duration]).to eq 549
       end
     end
+
+    describe '#trip_details' do 
+      before(:each) do
+        @ts = TransitService.new
+      end
+
+      it 'returns a single route' do 
+        route = @ts.trip_details('MTABC:94839')
+        
+        expect(route)
+        require 'pry'; binding.pry
+      end
+    end
   end
 end

@@ -33,7 +33,8 @@ RSpec.describe 'Transit Route Requests' do
 
   describe 'transit route show' do 
     before(:each) do 
-      get api_v1_market_transit_route(3)
+      get "/api/v1/markets/1/transit_routes"
+      require 'pry'; binding.pry
     end
     it 'endpoint exists' do 
       expect(response).to be_successful
@@ -41,7 +42,6 @@ RSpec.describe 'Transit Route Requests' do
 
     it 'endpoint exists' do 
       response = JSON.parse(response.body, symbolize_names: true)
-      require 'pry'; binding.pry
     end
   end
 end

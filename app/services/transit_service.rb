@@ -15,7 +15,7 @@ class TransitService
   end
 
   def trip_details(route_id)
-    get_url("/v3/public/route_details?global_route_id=#{route_id}")
+    get_url("/v3/public/route_details?global_route_id=#{route_id}&include_next_departure=true")
   end
 end
 
