@@ -6,8 +6,10 @@ class TransitFacade
     legs_data = route_data.map do |r|
       r[:legs]
     end
-    
-    leg_info = legs_data.first.map do |leg|
+    leg_info = legs_data.first.select do |leg|
+      leg[:agencyName].nil? == false
+    end
+    routes = leg_info.map do |leg|
       TransitRoute.new(leg)
     end
   end
