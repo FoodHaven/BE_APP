@@ -1,0 +1,110 @@
+{
+  "itineraries": [
+      {
+          "direction_headsign": "Terminals C / B",
+          "direction_id": 0,
+          "headsign": "Terminals C / B",
+          "merged_headsign": "Terminals C / B",
+          "shape": "}cuwFj_abMQoE_FcaA`AMh@fAq@tBuAzDcHtTuAbAqFvCgBh@cAFk@H{ALaCb@m@La@Nq@b@}DtCgAp@gABGBoCjA_@DoBb@qBn@g@Du@Fq@?}AGu@Im@MyAu@sFiDsKoGeD{B_Aq@c@i@gAeBq@y@y@i@[MoCy@o@_@_@g@Uc@[_AQaAGgB?aBMcDW{EQ_@o@iHc@{Di@sDoAmGg@yB_AkDy@kCuA{D{EaLmBeEa@kBIm@Gg@?m@j@gHQgDoAG_AA[@qDj@MaBEiA?aA?aDHgCXeDb@qGLmAHYx@gDTaAfAqCjB{DnC{EhAgBzDkFx@eA~AmB|@_DPe@Lo@?c@CqAMeCI_@Yg@EEOGSBa@f@BjABDF`ADpAm@pAsArBc@t@e@CaBM[b@OBWDk@?MFGH_@p@WA{E~H_AxAxD`FcAnBaDrHm@nAYZcCrMGnAnBzRHf@x@|ATbALb@z@nBdAxBjBrDzAjCzCzGjChG~@fC|AlFbCjLj@`Dp@vEFbBZvFJzBDbBEfAQnDCrBLbAHb@T^b@l@n@b@^P`E`AlA^TPn@h@PT~AhC\\^h@b@zDnCpC~AlQrKj@Vf@JnBP~@@~@?bAI`AMvFoBjC_B\\OxFoDXM|@UlAQxCMn@Gt@?f@AbAUp@U|@[v@]fA[nCgIpFaQt@sBYwFdBUPJnEg@pJgAPQTCp@jJp@nFf@zGB\\Y|E[`Cu@hFQtA_AhGoAhGkBlHk@jCe@rC",
+          "stops": [
+              {
+                  "global_stop_id": "MTABC:33875",
+                  "location_type": 0,
+                  "parent_station_global_stop_id": null,
+                  "route_type": 3,
+                  "rt_stop_id": "553332",
+                  "stop_code": "553332",
+                  "stop_lat": 40.74567731104018,
+                  "stop_lon": -73.90210722249947,
+                  "stop_name": "Roosevelt Av / 61 St",
+                  "wheelchair_boarding": 1
+              },
+              {
+                  "global_stop_id": "MTABC:33876",
+                  "location_type": 0,
+                  "parent_station_global_stop_id": null,
+                  "route_type": 3,
+                  "rt_stop_id": "551576",
+                  "stop_code": "551576",
+                  "stop_lat": 40.74654065856226,
+                  "stop_lon": -73.89068585423871,
+                  "stop_name": "74 St / Roosevelt Av Station",
+                  "wheelchair_boarding": 1
+              },
+              {
+                  "global_stop_id": "MTABC:36085",
+                  "location_type": 0,
+                  "parent_station_global_stop_id": null,
+                  "route_type": 3,
+                  "rt_stop_id": "904246",
+                  "stop_code": "904246",
+                  "stop_lat": 40.7720723628869,
+                  "stop_lon": -73.87585606190643,
+                  "stop_name": "LaGuardia Rd / 94 St",
+                  "wheelchair_boarding": 1
+              },
+              {
+                  "global_stop_id": "MTABC:38529",
+                  "location_type": 0,
+                  "parent_station_global_stop_id": null,
+                  "route_type": 3,
+                  "rt_stop_id": "503848",
+                  "stop_code": "503848",
+                  "stop_lat": 40.77029170862262,
+                  "stop_lon": -73.86451563247587,
+                  "stop_name": "LaGuardia / Terminal C",
+                  "wheelchair_boarding": 1
+              },
+              {
+                  "global_stop_id": "MTABC:38485",
+                  "location_type": 0,
+                  "parent_station_global_stop_id": null,
+                  "route_type": 3,
+                  "rt_stop_id": "904242",
+                  "stop_code": "904242",
+                  "stop_lat": 40.77284577837543,
+                  "stop_lon": -73.87247461744498,
+                  "stop_name": "LaGuardia / Terminal B",
+                  "wheelchair_boarding": 1
+              },
+              {
+                  "global_stop_id": "MTABC:33880",
+                  "location_type": 0,
+                  "parent_station_global_stop_id": null,
+                  "route_type": 3,
+                  "rt_stop_id": "505192",
+                  "stop_code": "505192",
+                  "stop_lat": 40.74681944786626,
+                  "stop_lon": -73.89125242605007,
+                  "stop_name": "Roosevelt Av / 74 St",
+                  "wheelchair_boarding": 1
+              },
+              {
+                  "global_stop_id": "MTABC:33881",
+                  "location_type": 0,
+                  "parent_station_global_stop_id": null,
+                  "route_type": 3,
+                  "rt_stop_id": "982205",
+                  "stop_code": "982205",
+                  "stop_lat": 40.74492188195837,
+                  "stop_lon": -73.90332130495239,
+                  "stop_name": "Woodside Av / 61 St",
+                  "wheelchair_boarding": 1
+              }
+          ]
+      }
+  ],
+  "route": {
+      "global_route_id": "MTABC:94839",
+      "mode_name": "Bus",
+      "real_time_route_id": "Q70+",
+      "route_color": "00a8d8",
+      "route_long_name": "LaGuardia Link",
+      "route_short_name": "Q70-SBS",
+      "route_text_color": "ffffff",
+      "route_type": 3,
+      "sorting_key": "Q70-SBS",
+      "tts_long_name": "LaGuardia Link",
+      "tts_short_name": "Q70-SBS"
+  }
+}
