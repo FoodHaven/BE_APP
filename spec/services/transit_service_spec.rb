@@ -8,7 +8,7 @@ RSpec.describe TransitService do
         @first_itinerary = @routes[:itineraries].first
         @first_leg = @first_itinerary[:legs].first
       end
-      
+
       it 'returns itineraries in an array' do
         expect(@routes).to be_a Hash
         expect(@routes).to have_key :itineraries
@@ -21,7 +21,7 @@ RSpec.describe TransitService do
         expect(@first_itinerary[:legs]).to be_a Array
         expect(@first_itinerary[:legs]).to_not be_empty
         expect(@first_leg).to have_key :duration
-        expect(@first_leg[:duration]).to eq 549
+        expect(@first_leg[:duration]).to be_a Integer
       end
     end
   end

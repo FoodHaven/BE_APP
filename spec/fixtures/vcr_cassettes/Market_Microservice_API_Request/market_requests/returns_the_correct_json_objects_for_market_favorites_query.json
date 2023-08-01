@@ -1,0 +1,99 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://foodhaven-farmers-markets-api.onrender.com/api/v1/markets/favorites?market_ids%5B%5D=25&market_ids%5B%5D=3&market_ids%5B%5D=680&market_ids%5B%5D=7",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.10"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 01 Aug 2023 20:39:37 GMT"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Cf-Ray": [
+            "7f00e439a9858ea2-DEN"
+          ],
+          "Cf-Cache-Status": [
+            "DYNAMIC"
+          ],
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Etag": [
+            "W/\"04e516f59ee736d6ec12ee951acd1f4e\""
+          ],
+          "Vary": [
+            "Accept-Encoding"
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Render-Origin-Server": [
+            "Render"
+          ],
+          "X-Request-Id": [
+            "63613481-00fa-4b9f-9a6d-d840cdc70db0"
+          ],
+          "X-Runtime": [
+            "0.006233"
+          ],
+          "X-Xss-Protection": [
+            "0"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"data\":[{\"id\":\"3\",\"type\":\"market\",\"attributes\":{\"name\":\"The Territory Farmers' Market\",\"address\":\"2000 Territory Drive, Galena, Illinois 61036\",\"site\":\"Private business parking lot;\",\"description\":\"Parking lot at The Galena Territory Association Owners' Club facility.\",\"fnap\":null,\"snap_option\":null,\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-90.31353,\"latitude\":42.404443}},{\"id\":\"7\",\"type\":\"market\",\"attributes\":{\"name\":\"Appleton Downtown Farm Market\",\"address\":\"100 College Avenue, Appleton, Wisconsin 54911\",\"site\":\"Closed-off public street;\",\"description\":\"Downtown Appleton on College Avenue, between Appleton and Drew Streets; plus Houdini Plaza.\",\"fnap\":\"WIC Farmers Market;WIC;SNAP;Accept EBT at a central location;;\",\"snap_option\":\"Accept EBT at a central location;\",\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-88.40703,\"latitude\":44.26201}},{\"id\":\"25\",\"type\":\"market\",\"attributes\":{\"name\":\"Barnegat Farmers Market\",\"address\":\"14 Birdsall St., Barnegat, New Jersey 08005\",\"site\":\"Local government building grounds;\",\"description\":\"The market is location across the street from Barnegat Station 11 Firehouse\",\"fnap\":\"SNAP;Some/all market vendors will accept EBT through individual POS;;\",\"snap_option\":\"Some/all market vendors will accept EBT through individual POS;\",\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-74.221654,\"latitude\":39.753903}},{\"id\":\"680\",\"type\":\"market\",\"attributes\":{\"name\":\"Washington on the Brazos Farmers Market\",\"address\":\"23400 Park Road 12, Washington, Texas 77880\",\"site\":\"Local government building grounds;\",\"description\":\"located under the Live Oaks in front of Visitor Center at Washington on the Brazos SHS\",\"fnap\":null,\"snap_option\":null,\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-96.403458,\"latitude\":30.2145775}}]}"
+        }
+      },
+      "recorded_at": "Tue, 01 Aug 2023 20:39:37 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.2.0"
+}
