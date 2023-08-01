@@ -1,0 +1,75 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://foodhaven-farmers-markets-api.onrender.com/api/v1/markets/nearby?coordinates%5B%5D=-88.045015&coordinates%5B%5D=30.69035&radius=50",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.10"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 01 Aug 2023 21:19:23 GMT"
+          ],
+          "Content-Type": [
+            "text/html; charset=UTF-8"
+          ],
+          "Content-Length": [
+            "0"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Cf-Ray": [
+            "7f011e78b85a7c79-LAX"
+          ],
+          "Cf-Cache-Status": [
+            "DYNAMIC"
+          ],
+          "Vary": [
+            "Accept-Encoding"
+          ],
+          "X-Render-Origin-Server": [
+            "Render"
+          ],
+          "X-Request-Id": [
+            "10669821-f335-42e1-90ea-15fc6ec07ea0"
+          ],
+          "X-Runtime": [
+            "0.016938"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": ""
+        }
+      },
+      "recorded_at": "Tue, 01 Aug 2023 21:19:22 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.2.0"
+}

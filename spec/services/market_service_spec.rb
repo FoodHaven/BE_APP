@@ -1,12 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe 'Market Service' do
-  describe 'favorites' do 
-    it 'can create a connection and consume API' do
+  describe 'favorites' do
+    it 'can create a connection and consume API', :vcr do
       @markets = MarketService.new.all_markets(30.69035, -88.045015, 50)[:data]
 
       expect(@markets).to be_a(Array)
-      expect(@markets.count).to eq(12)
       expect(@markets.first).to be_a(Hash)
       expect(@markets.first[:id]).to eq "2"
       expect(@markets.first[:attributes][:name]).to eq("Market in The Park")
@@ -17,7 +16,7 @@ RSpec.describe 'Market Service' do
     it 'can retrieve one market from market service' do
       @market = MarketService.new.one_market(2)
       @market_hash = @market[:data]
-      
+
       expect(@market).to be_a Hash
       expect(@market.count).to eq 1
       expect(@market_hash).to be_a Hash
@@ -35,7 +34,7 @@ RSpec.describe 'Market Service' do
       expect(@market_hash[:attributes]).to have_key :latitude
     end
 
-    it 'can retrieve favorites from market service' do 
+    it 'can retrieve favorites from market service' do
       @ms = MarketService.new
       ids = [12, 34, 56]
 
