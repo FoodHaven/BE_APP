@@ -7,6 +7,7 @@ class Api::V1::Markets::TransitRoutesController < ApplicationController
     routes = TransitService.new.get_trips(params[:original_lat], params[:original_lon], params[:destination_lat], params[:destination_lon]) 
     render json: routes
   end
+  
   def show
     route = TransitFacade.route(params[:global_route_id])
   end

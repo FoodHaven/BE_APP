@@ -32,3 +32,5 @@
 /coverage
 /coverage/index.html
 
+/config/application.yml
+

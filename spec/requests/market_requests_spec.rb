@@ -16,7 +16,7 @@ RSpec.describe 'Market Microservice API Request' do
       expect(@markets.third.name).to eq("Market in The Park")
     end
     
-
+    
     it 'gets one market' do  
       get api_v1_market_path(2)
       data = JSON.parse(response.body, symbolize_names: true)[:data]

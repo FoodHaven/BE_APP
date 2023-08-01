@@ -30,4 +30,18 @@ RSpec.describe 'Transit Route Requests' do
       expect(@routes.second.route_short_name).to eq "F"
     end
   end
+
+  describe 'transit route show' do 
+    before(:each) do 
+      get api_v1_market_transit_route(3)
+    end
+    it 'endpoint exists' do 
+      expect(response).to be_successful
+    end
+
+    it 'endpoint exists' do 
+      response = JSON.parse(response.body, symbolize_names: true)
+      require 'pry'; binding.pry
+    end
+  end
 end
