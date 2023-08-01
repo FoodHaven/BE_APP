@@ -10,6 +10,7 @@ Rails.application.routes.draw do
           get 'nearby'
         resources :transit_routes, only: [:index, :show], to: 'markets/transit_routes#index'
       end
+      get "/favorites", to: "markets/favorites#index"
     end
   end
 end
