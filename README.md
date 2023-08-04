@@ -36,12 +36,12 @@ Rails Version: 7.0.6
 
   - https://foodhaven-farmers-markets-api.onrender.com/api/v1/markets
     - This endpoint renders an index of all farmers markets in the database.
-    ![Alt text](app/assets/images/All markets.png?raw=true)
+    ![Alt text](app/assets/images/All_markets.png?raw=true)
 
   - https://foodhaven-farmers-markets-api.onrender.com/api/v1/markets/{market id}
 
     - Renders a a JSON object for a single market by that market's id.
-     ![Alt text](app/assets/images/One Market.png?raw=true)
+     ![Alt text](app/assets/images/One_Market.png?raw=true)
 
 - Transit
   - Consumes the Transit API to get nearby public transit options and it's details as well as the route(s) available.
