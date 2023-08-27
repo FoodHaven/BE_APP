@@ -3,7 +3,7 @@
     {
       "request": {
         "method": "get",
-        "uri": "https://foodhaven-farmers-markets-api.onrender.com/api/v1/markets/1",
+        "uri": "https://foodhaven-df0d805938ff.herokuapp.com/markets/1",
         "body": {
           "encoding": "US-ASCII",
           "string": ""
@@ -26,73 +26,34 @@
           "message": "OK"
         },
         "headers": {
+          "Server": [
+            "Cowboy"
+          ],
           "Date": [
-            "Tue, 01 Aug 2023 20:36:30 GMT"
-          ],
-          "Content-Type": [
-            "application/json; charset=utf-8"
-          ],
-          "Transfer-Encoding": [
-            "chunked"
+            "Sun, 27 Aug 2023 17:03:37 GMT"
           ],
           "Connection": [
             "keep-alive"
           ],
-          "Cf-Ray": [
-            "7f00dfab6beb28ff-DEN"
-          ],
-          "Cf-Cache-Status": [
-            "DYNAMIC"
-          ],
-          "Cache-Control": [
-            "max-age=0, private, must-revalidate"
-          ],
-          "Etag": [
-            "W/\"51e2bf90954a6e3c10a67dbba5ea7d86\""
-          ],
-          "Vary": [
-            "Accept-Encoding"
-          ],
-          "Referrer-Policy": [
-            "strict-origin-when-cross-origin"
+          "Content-Type": [
+            "application/json"
           ],
           "X-Content-Type-Options": [
             "nosniff"
           ],
-          "X-Download-Options": [
-            "noopen"
+          "Content-Length": [
+            "491"
           ],
-          "X-Frame-Options": [
-            "SAMEORIGIN"
-          ],
-          "X-Permitted-Cross-Domain-Policies": [
-            "none"
-          ],
-          "X-Render-Origin-Server": [
-            "Render"
-          ],
-          "X-Request-Id": [
-            "acb0b07d-005e-4ef7-83a8-1286794cf0ed"
-          ],
-          "X-Runtime": [
-            "0.007165"
-          ],
-          "X-Xss-Protection": [
-            "0"
-          ],
-          "Server": [
-            "cloudflare"
-          ],
-          "Alt-Svc": [
-            "h3=\":443\"; ma=86400"
+          "Via": [
+            "1.1 vegur"
           ]
         },
         "body": {
-          "encoding": "ASCII-8BIT",
+          "encoding": "UTF-8",
           "string": "{\"data\":{\"id\":\"1\",\"type\":\"market\",\"attributes\":{\"name\":\"Colorado Farm and Art Market\",\"address\":\"7350 Pine Creek Road, Colorado Springs, Colorado 80919\",\"site\":\"Private business parking lot;\",\"description\":\"Behind the patio of the Margarita at Pine Creek, located off Woodmen road just West of I-25.\",\"fnap\":\"SNAP;Accept EBT at a central location;;\",\"snap_option\":\"Accept EBT at a central location;\",\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-104.81468,\"latitude\":38.937716}}}"
         }
       },
-      "recorded_at": "Tue, 01 Aug 2023 20:36:30 GMT"
+      "recorded_at": "Sun, 27 Aug 2023 17:03:38 GMT"
     }
   ],
   "recorded_with": "VCR 6.2.0"
