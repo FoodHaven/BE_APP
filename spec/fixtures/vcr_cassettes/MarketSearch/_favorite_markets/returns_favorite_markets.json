@@ -3,7 +3,7 @@
     {
       "request": {
         "method": "get",
-        "uri": "https://foodhaven-farmers-markets-api.onrender.com/api/v1/markets/favorites?market_ids%5B%5D=1&market_ids%5B%5D=2&market_ids%5B%5D=3",
+        "uri": "https://foodhaven-df0d805938ff.herokuapp.com/markets/favorites?market_ids%5B%5D=1&market_ids%5B%5D=2&market_ids%5B%5D=3",
         "body": {
           "encoding": "US-ASCII",
           "string": ""
@@ -26,73 +26,34 @@
           "message": "OK"
         },
         "headers": {
+          "Server": [
+            "Cowboy"
+          ],
           "Date": [
-            "Tue, 01 Aug 2023 20:36:30 GMT"
-          ],
-          "Content-Type": [
-            "application/json; charset=utf-8"
-          ],
-          "Transfer-Encoding": [
-            "chunked"
+            "Sun, 27 Aug 2023 17:03:38 GMT"
           ],
           "Connection": [
             "keep-alive"
           ],
-          "Cf-Ray": [
-            "7f00dfacff132917-DEN"
-          ],
-          "Cf-Cache-Status": [
-            "DYNAMIC"
-          ],
-          "Cache-Control": [
-            "max-age=0, private, must-revalidate"
-          ],
-          "Etag": [
-            "W/\"7012e2eeb4c363514e8dce7aad26dbd4\""
-          ],
-          "Vary": [
-            "Accept-Encoding"
-          ],
-          "Referrer-Policy": [
-            "strict-origin-when-cross-origin"
+          "Content-Type": [
+            "application/json"
           ],
           "X-Content-Type-Options": [
             "nosniff"
           ],
-          "X-Download-Options": [
-            "noopen"
+          "Content-Length": [
+            "1314"
           ],
-          "X-Frame-Options": [
-            "SAMEORIGIN"
-          ],
-          "X-Permitted-Cross-Domain-Policies": [
-            "none"
-          ],
-          "X-Render-Origin-Server": [
-            "Render"
-          ],
-          "X-Request-Id": [
-            "4a2f81a7-b610-4dea-a3da-e0e2430e6dd4"
-          ],
-          "X-Runtime": [
-            "0.006483"
-          ],
-          "X-Xss-Protection": [
-            "0"
-          ],
-          "Server": [
-            "cloudflare"
-          ],
-          "Alt-Svc": [
-            "h3=\":443\"; ma=86400"
+          "Via": [
+            "1.1 vegur"
           ]
         },
         "body": {
-          "encoding": "ASCII-8BIT",
+          "encoding": "UTF-8",
           "string": "{\"data\":[{\"id\":\"1\",\"type\":\"market\",\"attributes\":{\"name\":\"Colorado Farm and Art Market\",\"address\":\"7350 Pine Creek Road, Colorado Springs, Colorado 80919\",\"site\":\"Private business parking lot;\",\"description\":\"Behind the patio of the Margarita at Pine Creek, located off Woodmen road just West of I-25.\",\"fnap\":\"SNAP;Accept EBT at a central location;;\",\"snap_option\":\"Accept EBT at a central location;\",\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-104.81468,\"latitude\":38.937716}},{\"id\":\"2\",\"type\":\"market\",\"attributes\":{\"name\":\"Market in The Park\",\"address\":\"300 Conti, Mobile, Alabama 36602\",\"site\":\"Local government building grounds;\",\"description\":\"Cathedral Square, located in downtown Mobile, bordered by Conti, Jackson, Dauphin, and Claiborne Streets.\",\"fnap\":\"Senior Farmers Market Nutrition Program;\",\"snap_option\":null,\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-88.045015,\"latitude\":30.69035}},{\"id\":\"3\",\"type\":\"market\",\"attributes\":{\"name\":\"The Territory Farmers' Market\",\"address\":\"2000 Territory Drive, Galena, Illinois 61036\",\"site\":\"Private business parking lot;\",\"description\":\"Parking lot at The Galena Territory Association Owners' Club facility.\",\"fnap\":null,\"snap_option\":null,\"accepted_payment\":\"Debit card/Credit card;\",\"longitude\":-90.31353,\"latitude\":42.404443}}]}"
         }
       },
-      "recorded_at": "Tue, 01 Aug 2023 20:36:30 GMT"
+      "recorded_at": "Sun, 27 Aug 2023 17:03:38 GMT"
     }
   ],
   "recorded_with": "VCR 6.2.0"

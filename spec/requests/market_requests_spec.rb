@@ -9,7 +9,7 @@ RSpec.describe 'Market Microservice API Request' do
       @markets = data.map { |market| Market.new(market[:attributes]) }
 
       expect(@markets).to be_a(Array)
-      expect(@markets.count).to eq(154)
+      expect(@markets.count).to eq(22)
 
       @markets.each do |market|
         expect(market).to be_a Market
