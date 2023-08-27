@@ -17,7 +17,7 @@ Andy Stilmock: https://github.com/AStilmock
 
 Dependencies: 
 
-Microservice: https://github.com/FoodHaven/microservice-api
+Microservice: https://github.com/FoodHaven/microservice_sinatra
 
 Front End: https://github.com/FoodHaven/FE_APP
 
@@ -34,27 +34,14 @@ Rails Version: 7.0.6
 - Microservice
   - Utilizes USDA farmer market data
 
-  - https://foodhaven-farmers-markets-api.onrender.com/api/v1/markets
+  - https://foodhaven-df0d805938ff.herokuapp.com/markets
     - This endpoint renders an index of all farmers markets in the database.
     ![Alt text](app/assets/images/All_markets.png?raw=true)
 
-  - https://foodhaven-farmers-markets-api.onrender.com/api/v1/markets/{market id}
+  - https://foodhaven-df0d805938ff.herokuapp.com/markets/#{market_id}
 
     - Renders a a JSON object for a single market by that market's id.
      ![Alt text](app/assets/images/One_Market.png?raw=true)
-
-- Transit
-  - Consumes the Transit API to get nearby public transit options and it's details as well as the route(s) available.
-  - Transit API requires an API key when used locally. A free API key can be requested at the bottom of the web page here: https://transitapp.com/apis
-  - Documentation for Transit API can be found here: http://api-doc.transitapp.com/
-  - Endpoints for https://external.transitapp.com
-    - All routes 
-      - "/v3/otp/plan?fromPlace=#{origin_lat},#{origin_lon}&toPlace=#{destination_lat},#{destination_lon}"
-        ![Alt text](app/assets/images/Routes.png?raw=true)
-        
-    - Route details 
-      - /v3/public/route_details?global_route_id=#{route_id}&include_next_departure=true"
-       ![Alt text](app/assets/images/Route_details.png?raw=true)
       
     
 <h4>Gems</h4>
